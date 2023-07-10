@@ -17,8 +17,8 @@ class MyDocument extends Document {
 
     return (
       <Html lang={config.lang} className={cn(initialColorScheme)}>
-        <meta name="google-site-verification" content="VNQ86qzUmWGC3XrAB62oMfzA8B9X78u4Wssj-ZJowYM" />
         <Head>
+          <meta name="google-site-verification" content="VNQ86qzUmWGC3XrAB62oMfzA8B9X78u4Wssj-ZJowYM" />
           {config.font && config.font === 'serif'
             ? (
             <>
